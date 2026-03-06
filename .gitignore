@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+
+# Git backups
+**/.git-backup/
+
+# Node
+node_modules/
+.pnpm-store/
+
+# Java
+**/target/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Env
+.env
+.env.*

@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      # development only
+      ddl-auto: validate
+    show-sql: true
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+
+auth:
+  jwt:
+    expiration-ms: 3600000
+    secret: ""
+  refresh-token:
+    ttl-days: 7
+  admin:
+    username: ""
+    password: ""
+
+app:
+  cors:
+    allowed-origins:
+      - http://localhost:5173

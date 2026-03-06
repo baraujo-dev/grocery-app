@@ -1,0 +1,15 @@
+{
+  "name": "grocery-frontend",
+  "private": true,
+  "packageManager": "pnpm@10.29.3",
+  "scripts": {
+    "dev:web": "pnpm --filter ./apps/web dev",
+    "build:web": "pnpm --filter ./apps/web build",
+    "lint:web": "pnpm --filter ./apps/web lint",
+    "dev:mobile": "pnpm --filter ./apps/mobile start",
+    "ios:mobile": "pnpm --filter ./apps/mobile ios",
+    "android:mobile": "pnpm --filter ./apps/mobile android",
+    "web:mobile": "pnpm --filter ./apps/mobile web",
+    "android:release:mobile": "pnpm --filter ./apps/mobile android:release"
+  }
+}
